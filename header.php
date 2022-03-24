@@ -11,7 +11,7 @@
     >
     <style>
         body { background-color: #f5f5f5 }
-        .form-signin {
+        .form-signin, .welcome div {
             width: 100%;
             max-width: 660px;
             padding: 15px;
@@ -20,10 +20,21 @@
         .form-signin-sm {
             max-width: 330px;
         }
+        .welcome div {
+            max-width: 550px;
+        }
         @media only screen and (max-width: 280px) {
             .form-signin {
                 padding: 0;
-            }            
+            }
+
+            /* Welcome page rules */
+            .welcome h1 {
+                font-size: 1.75rem;
+            }
+            .welcome .row {
+                padding: 0;
+            }
         }
     </style>
 </head>
