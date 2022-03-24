@@ -10,7 +10,17 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     >
     <style>
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 360px; padding: 20px; }
+        body { background-color: #f5f5f5 }
+        .form-signin {
+            width: 100%;
+            max-width: 660px;
+            padding: 15px;
+            margin: auto;
+        }
+        @media only screen and (max-width: 280px) {
+            .form-signin {
+                padding: 0;
+            }            
+        }
     </style>
 </head>
