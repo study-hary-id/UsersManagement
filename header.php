@@ -17,6 +17,9 @@
             padding: 15px;
             margin: auto;
         }
+        .form-signin-sm {
+            max-width: 330px;
+        }
         @media only screen and (max-width: 280px) {
             .form-signin {
                 padding: 0;
