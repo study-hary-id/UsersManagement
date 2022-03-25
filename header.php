@@ -47,6 +47,12 @@ $title = substr($title, 1, strpos($title, ".") - 1);
                 display: none;
             }
         } */
+        @media only screen and (min-width: 768px) {
+            .card .btn-block {
+                width: 200px;
+                margin: 0 auto;
+            }
+        }
         @media only screen and (max-width: 280px) {
             .form-signin {
                 padding: 0;
@@ -61,6 +67,14 @@ $title = substr($title, 1, strpos($title, ".") - 1);
             }
             .welcome .row {
                 padding: 0;
+            }
+
+            /* View record page rules */
+            .card-body {
+                padding: .75rem;
+            }
+            .card-body .form-group {
+                margin-bottom: 0;
             }
         }
     </style>
