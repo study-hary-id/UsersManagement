@@ -33,6 +33,20 @@ $title = substr($title, 1, strpos($title, ".") - 1);
         .welcome div {
             max-width: 550px;
         }
+        .welcome .table-responsive-xl {
+            max-width: unset;
+        }
+        .welcome td:last-child {
+            min-width: 120px;
+        }
+        /* @media only screen and (max-width: 768px) {
+            .welcome thead {
+                display: none;
+            }
+            .welcome tr td:first-child {
+                display: none;
+            }
+        } */
         @media only screen and (max-width: 280px) {
             .form-signin {
                 padding: 0;
@@ -41,6 +55,9 @@ $title = substr($title, 1, strpos($title, ".") - 1);
             /* Welcome page rules */
             .welcome h1 {
                 font-size: 1.75rem;
+            }
+            .welcome h2 {
+                font-size: 1.5rem;
             }
             .welcome .row {
                 padding: 0;
