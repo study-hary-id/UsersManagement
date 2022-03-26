@@ -105,7 +105,7 @@ require_once "header.php";
             <?php 
             if (!empty($login_err)) {
                 echo '<div class="alert alert-danger">' . $login_err . '</div>';
-            }        
+            }
             ?>
 
             <div class="form-group">
